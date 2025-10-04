@@ -1,36 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Favorite Animal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upskill - Week 2 Task</title>
 </head>
 <body>
-    <!-- Main heading -->
-    <h1>My Favorite Animal</h1>
-    
-    <!-- Image of favorite animal -->
-    <img src="./tiger.webp" alt="A beautiful tiger" width="400">
-    
-    <!-- Paragraph -->
-    <p>
-        My favorite animal is the <strong>Tiger</strong>.  
-        I like tigers because they are strong, majestic, and symbolize courage.  
-        Their beautiful stripes make them unique among all animals.
-    </p>
-    
-    <!-- List of 3 cool facts -->
-    <h2>3 Cool Facts about Tigers</h2>
-    <ul>
-        <li>Tigers are the largest wild cats in the world.</li>
-        <li>Each tiger has unique stripes, just like human fingerprints.</li>
-        <li>Tigers are excellent swimmers and enjoy water.</li>
-    </ul>
-    
-    <!-- Link to Wikipedia -->
-    <p>
-        Learn more about tigers on 
-        <a href="https://en.wikipedia.org/wiki/Tiger" target="_blank">Wikipedia</a>.
-    </p>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Welcome to My Personal Webpage</h1>
+    <p><mark>Learning Web Development</mark> is my passion!</p>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Personal Information Section -->
+    <section>
+      <article>
+        <h2>Personal Information</h2>
+        <p><strong>Name:</strong> Ezeamugo Obinna Augustine</p>
+        <p><strong>Hobby:</strong> Playing Football</p>
+        <p><strong>Favorite Music:</strong> Essence by D Biggest Bird in the world (WIZKID)</p>
+
+        <!-- Video -->
+        <h3>My Favorite Video</h3>
+        <video controls width="300">
+          <source src="/17a9bf86d4b1437e9e09a7fba8d3dcff.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <!-- Audio -->
+        <h3>My Favorite Audio</h3>
+        <audio controls>
+          <source src="/Wizkid-Essence-ft-Tems-(JustNaija.com).mp3" type="audio/mpeg">
+          Your browser does not support the audio tag.
+        </audio>
+
+        <!-- Reason for Web Development -->
+        <h3>Why I am in Web Development</h3>
+        <p>I want to build <mark>modern and responsive websites</mark> to help businesses grow online.</p>
+
+        <!-- Image with Figure & Figcaption -->
+        <figure>
+          <img src="/Screenshot_20220106-070245.jpg" alt="A representation of my hobby" width="250">
+          <figcaption>This is me enjoying one of my hobbies.</figcaption>
+        </figure>
+
+        <!-- Google Map with Iframe -->
+        <h3>My Favorite City</h3>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.842338406472!2d3.3792!3d6.5244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4d0f21f45b9%3A0x6c69dfb92937e9cf!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1696250000000" 
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </article>
+    </section>
+
+    <!-- Aside Section -->
+    <aside>
+      <h3>Quick Note</h3>
+      <p>This webpage was created as part of my <mark>Upskill Week 2 Task</mark>.</p>
+    </aside>
+
+    <!-- Contact Form Section -->
+    <section>
+      <h2>Contact Form</h2>
+      <form>
+        <!-- Name -->
+        <label for="name">Name:</label><br>
+        <input type="text" placeholder="Enter Your Name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" placeholder="Enter Your Email" required><br><br>
+
+        <!-- Phone -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" placeholder="Phone" required><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female<br><br>
+
+        <!-- Country Select -->
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+          <option value="nigeria">Nigeria</option>
+          <option value="ghana">Ghana</option>
+          <option value="kenya">Kenya</option>
+          <option value="southafrica">South Africa</option>
+          <option value="egypt">Egypt</option>
+        </select><br><br>
+
+        <!-- Notes -->
+        <label for="note">Note:</label><br>
+        <textarea id="note" name="note" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Details & Summary Example -->
+    <section>
+      <h2>More About Me</h2>
+      <details>
+        <summary>Click to learn more</summary>
+        <p>I am passionate about technology and I enjoy solving problems with code.</p>
+      </details>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>@ezeamugo Obinna 2025 Genesys Upskill</p>
+  </footer>
+
 </body>
 </html>
